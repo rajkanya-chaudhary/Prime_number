@@ -6,6 +6,6 @@ public class Count_number {
             n = n % 10;
             count++;
         }
-        System.out.println("No. Of Count " +count);
+        System.out.println("No. Of Count " + count);
     }
 }
