@@ -12,7 +12,8 @@ public class Count_Duplicate_String {
                 // Iterate over each character in the array
                 for (int i = 0; i < length; i++) {
                     // Skip already visited characters
-                    if (visited[i] || chars[i] == ' ') continue;
+                    if (visited[i] || chars[i] == ' ') 
+                    continue;
         
                     int count = 1;
                     for (int j = i + 1; j < length; j++) {
